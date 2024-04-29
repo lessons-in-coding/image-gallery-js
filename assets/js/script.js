@@ -96,14 +96,69 @@ var imageSources = [
     description: "Description for Image 19",
   },
   {
-    src: "./assets/images/candle1.png",
+    src: "./assets/images/propertyValue.png",
     // title: "Image 20",
     description: "Description for Image 20",
   },
   {
-    src: "./assets/images/candle2.png",
+    src: "./assets/images/plant2.png",
     // title: "Image 21",
     description: "Description for Image 21",
+  },
+  {
+    src: "./assets/images/read.png",
+    // title: "Image 22",
+    description: "Description for Image 22",
+  },
+  {
+    src: "./assets/images/plant4.png",
+    // title: "Image 23",
+    description: "Description for Image 23",
+  },
+  {
+    src: "./assets/images/OnTheJob.png",
+    // title: "Image 24",
+    description: "Description for Image 24",
+  },
+  {
+    src: "./assets/images/note.png",
+    // title: "Image 25",
+    description: "Description for Image 25",
+  },
+  {
+    src: "./assets/images/nerdNote.png",
+    // title: "Image 26",
+    description: "Description for Image 26",
+  },
+  {
+    src: "./assets/images/love.png",
+    // title: "Image 27",
+    description: "Description for Image 27",
+  },
+  {
+    src: "./assets/images/light.png",
+    // title: "Image 28",
+    description: "Description for Image 28",
+  },
+  {
+    src: "./assets/images/hint.png",
+    // title: "Image 29",
+    description: "Description for Image 29",
+  },
+  {
+    src: "./assets/images/dhammaWheel.png",
+    // title: "Image 30",
+    description: "Description for Image 30",
+  },
+  {
+    src: "./assets/images/deepDive1.png",
+    // title: "Image 31",
+    description: "Description for Image 31",
+  },
+  {
+    src: "./assets/images/assignment.png",
+    // title: "Image 32",
+    description: "Description for Image 32",
   },
   // Add more image objects as needed
 ];
