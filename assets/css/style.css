@@ -3,7 +3,7 @@
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
   --primay-bgcolor: rgb(121, 115, 115);
-  --secondary-bgcolor: rgb(12, 12, 71);
+  --secondary-bgcolor: rgb(1, 1, 26);
   --tertiary-bgcolor: rgb(97, 24, 24);
 }
 
@@ -16,4 +16,44 @@
 
 body {
   background-color: var(--primay-bgcolor);
+}
+
+#imageContainer {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+  background-color: var(--secondary-bgcolor);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  /* Align navigation buttons to left and right */
+  margin-top: 20px;
+  padding: 0 40px; /* Add padding to navigation buttons */
+}
+
+.arrow {
+  width: auto;
+  height: 65px;
+  cursor: pointer;
+  margin: 0 20%;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+  img {
+    max-width: 100%; /* Set max width of images to 700px */
+    height: auto;
+  }
+  .arrow {
+    width: auto;
+    cursor: pointer;
+  }
 }
