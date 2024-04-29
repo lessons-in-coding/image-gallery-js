@@ -123,7 +123,7 @@ var imageSources = [
   {
     src: "./assets/images/note.png",
     // title: "Image 25",
-    description: "စာတွေအများကိုဖတ်လိုက်မယ်",
+    description: "စာတွေအများကြီးဖတ်လိုက်မယ်",
   },
   {
     src: "./assets/images/nerdNote.png",
