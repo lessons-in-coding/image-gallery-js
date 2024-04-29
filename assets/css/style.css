@@ -3,7 +3,7 @@
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
   --primay-bgcolor: rgb(121, 115, 115);
-  --secondary-bgcolor: rgb(1, 1, 26);
+  --secondary-bgcolor: rgb(74, 69, 8);
   --tertiary-bgcolor: rgb(97, 24, 24);
 }
 
@@ -19,13 +19,35 @@ body {
 }
 
 #imageContainer {
-  padding-top: 10%;
+  padding-top: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 75%;
+  height: 750px;
   background-color: var(--secondary-bgcolor);
+}
+
+.imageItem {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%; /* Set max width of images to 700px */
+  height: 500px;
+}
+
+/* .title {
+  font-size: 20px;
+  margin-top: 10px;
+} */
+
+.description {
+  margin-top: 5%;
+  color: var(--primary-color);
+  padding-top: 25px;
+  font-size: 2rem;
 }
 
 .navigation {
